@@ -26,17 +26,18 @@ body {
       letter-spacing: normal;
       font-style: normal;
       margin-left: -80px;
-
+    }
+    .app-subtitle {
+      font-size: 1.2rem;
+      color: #666;
+      margin-top: 0.5rem;
+    }
   }
-  .app-subtitle {
-    font-size: 1.2rem;
-    color: #666;
-    margin-top: 0.5rem;
-  }
-}
 
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2rem;
+  }
 }

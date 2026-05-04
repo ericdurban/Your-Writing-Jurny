@@ -1,8 +1,15 @@
+import ProgressBar from '../components/Bars/ProgressBar';
+import WorldBuildingBar from '../components/Bars/WorldBuildingBar';
+import Rte from '../components/Rte';
+import AIAssistant from '../components/Bars/AIAssistant';
+
 export default function NovelWriting() {
   return (
     <div>
-      <h1>Novel Writing</h1>
-      <p>Welcome to the Novel Writing page!</p>
+      <ProgressBar />
+      <WorldBuildingBar />
+      <Rte />
+      <AIAssistant />
     </div>
   );
 }

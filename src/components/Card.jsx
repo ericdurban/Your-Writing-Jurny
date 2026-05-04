@@ -3,7 +3,13 @@ import { useNavigate } from "react-router-dom";
 import Button from "./Button";
 import IconContainer from "./IconContainer";
 
-export function Card({ title, content, icon, iconBackgroundColor, link }) {
+export default function Card({
+  title,
+  content,
+  icon,
+  iconBackgroundColor,
+  link,
+}) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -20,5 +26,3 @@ export function Card({ title, content, icon, iconBackgroundColor, link }) {
     </div>
   );
 }
-
-export default Card;
